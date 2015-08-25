@@ -22,9 +22,10 @@ class EventsController < ApplicationController
 
 
   def create
-    binding.pry
+    @venue = Venue.find(params[:id])
+    @band = Band.find(params[:id])
     @event = Event.create(event_params)
-    redirect_to event_path
+   
   end
 
 
