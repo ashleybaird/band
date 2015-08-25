@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: MyString
+  alcohol_served: false
+  venue_id: 
+  band_id: 
+
+two:
+  date: MyString
+  alcohol_served: false
+  venue_id: 
+  band_id: 
