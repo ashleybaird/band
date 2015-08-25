@@ -1,24 +1,8 @@
-<p id="notice"><%= notice %></p>
+<h1>Github is a dirty terrorist</h1>
 
-<p>
-  <strong>Date:</strong>
-  <%= @event.date %>
-</p>
+<h3>Is this is the event you're looking for?</h3>
 
-<p>
-  <strong>Alcohol served:</strong>
-  <%= @event.alcohol_served %>
-</p>
-
-<p>
-  <strong>Venue:</strong>
-  <%= @event.venue %>
-</p>
-
-<p>
-  <strong>Band:</strong>
-  <%= @event.band %>
-</p>
-
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>
+<%= @events.date %> <br>
+<%= @events.alcohol_served %> <br>
+<%= @events.venue_id %> <br> 
+<%= @events.band_id %> <br>
