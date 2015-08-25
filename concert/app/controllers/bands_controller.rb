@@ -21,7 +21,9 @@ class BandsController < ApplicationController
 
  
   def create
- 
+    binding.pry
+    @band = Band.create(band_params)
+    redirect_to band_path
   end
 
 
